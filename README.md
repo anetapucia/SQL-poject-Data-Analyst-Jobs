@@ -27,7 +27,7 @@ Each query for this project aimed at investigating specific aspects of the data 
 Here's how I approached each question:
 ### 1. Top Paying Data Analyst Jobs
 To identify the highest-paying roles II filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
-'''sql
+```sql
 SELECT
     job_id,
     job_title,
@@ -46,6 +46,6 @@ WHERE
 ORDER BY
     salary_year_avg DESC
 LIMIT 10
-'''
+```
 # What I Learned
 # Conclusions
